@@ -1,13 +1,16 @@
+/* adjust alignment of every element */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* sets background color to white */
 body{
     background-color: #d9dcd6;
 }
 
+/* give the header its font, colors and padding */
 .header{
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body{
     color: #ffffff;
 }
 
+/* sizing for the header */
 .header h1{
     display: inline-block;
     font-size: 48px;
 }
 
+/* color for .seo */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* nav link margins and size */
 .header div{
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ body{
     font-size: 20px;
 }
 
+/* removes the dots for the nav list */
 .header div ul{
     list-style-type: none;
 }
 
+/* keeps the list in line */
 .header div ul li{
     display: inline-block;
     margin-left: 25px;
 }
 
+/* color in a tag and removes decor */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* fontsize in p's */
 p {
     font-size: 16px;
 }
 
+/* banner image */
 .hero{
     height: 800px;
     width: 100%;
@@ -59,22 +70,26 @@ p {
     background-position: center;
 }
 
+/* keeps cards on the left */
 .float-left{
     float: left;
     margin-right: 25px;
 }
 
+/* keeps card on the right */
 .float-right{
     float: right;
     margin-left: 25px;
 }
 
+/* size and alignment of cards to the left */
 .content{
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* card on the right's text and alignment */
 .benefits{
     margin-right: 20px;
     padding: 20px;
@@ -125,6 +140,7 @@ p {
     font-size: 36px;
 }
 
+/* footer */
 .footer{
     padding: 30px;
     clear: both;
@@ -132,6 +148,8 @@ p {
     text-align: center;
 }
 
+/* footer h2 font size */
 .footer h2{
     font-size: 20px;
 }
+
